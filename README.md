@@ -1,3 +1,46 @@
+# 1 для того щоб в редакторі емет дописував теги потрібно в налаштуваннях, в пошуку знайти 
+emmet.syntaxProfiles
+і дописати в налаштуваннях
+"emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+# 2 Встановлює npx create-react-app . 
+Далі npm install
+
+# 3 Встановлює npm install --save-dev prop-types 
+для того щоб вказувати який тип даних ми очікуємо в пропи
+
+# 4 Для деплою в гіт хап пейдж потрібно в package.json вказати homepage
+"homepage": "https://dumenko111.github.io/React-hw-1" в кінці замість React-hw-1 вказати ім'я свого репозиторію
+
+# 5 далі добавляємо npm install --save gh-pages для автоматиного деплою
+в package.json потрібно добавити два нових скріпта:
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+потім npm run deploy
+
+# 6 налаштування лінтінгу
+npm install --save-dev prettier eslint
+
+Пользователям MacOS и Linux систем необходимо выполнить в терминале следующую команду. Она установит и настроит husky и lint-staged в зависимости от инструментов качества кода из зависимостей проекта в package.json.
+npx mrm lint-staged
+
+Пользователям Windows необходимо выполнить следующую команду. Она делает тоже самое.
+npx mrm@2 lint-staged
+
+# Добавити в налаштуваннях settings.json
+{ "files.autoSave": "onFocusChange", "editor.formatOnSave": true, "editor.codeActionsOnSave": { "source.fixAll.eslint": true } } 
+
+# Для normalize css
+поставити npm i modern-normalize
+і добавити імпорт в index.js import 'modern-normalize/modern-normalize.css'
+
+
+
+
+
+
+
 # React homework template
 
 Этот проект был создан при помощи
