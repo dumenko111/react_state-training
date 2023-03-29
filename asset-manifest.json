@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react_state-training.git/static/css/main.fb76cc98.css",
+    "main.css": "/react_state-training.git/static/css/main.33988b23.css",
     "main.js": "/react_state-training.git/static/js/main.6adea7b0.js",
     "index.html": "/react_state-training.git/index.html",
-    "main.fb76cc98.css.map": "/react_state-training.git/static/css/main.fb76cc98.css.map",
+    "main.33988b23.css.map": "/react_state-training.git/static/css/main.33988b23.css.map",
     "main.6adea7b0.js.map": "/react_state-training.git/static/js/main.6adea7b0.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb76cc98.css",
+    "static/css/main.33988b23.css",
     "static/js/main.6adea7b0.js"
   ]
 }
