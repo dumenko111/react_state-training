@@ -1,4 +1,32 @@
 .counter {
-  display: inline-block;
-  background-color: aquamarine;
+  width: 400px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  background-color: teal;
+  margin-bottom: 80px;
+}
+
+.counter__controls {
+  border: none;
+  padding: 10px 15px;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 2px 2px 0 rgba(0 0 0 / 0.5);
+  transition: box-shadow 250ms linear;
+}
+
+.counter__value {
+  margin-left:  15px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid black;
+  font-size: 20px;
 }
