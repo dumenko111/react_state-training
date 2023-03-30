@@ -5,7 +5,7 @@ import './color.css';
 
 class ColorPicker extends Component {
   state = {
-    activeOptionIdx: 2, //зберігаємо тут index масиву, наприклад нульовий
+    activeOptionIdx: 0, //зберігаємо тут index масиву, наприклад нульовий
   };
 
   setActiveIdx = index => {
@@ -36,9 +36,7 @@ class ColorPicker extends Component {
               key={label} //передаємо ключі як label
               className={this.makeOptionClassName(index)} //значення класу це виклик методу класу, якому ми передали index
               style={{ backgroundColor: color }}
-              onClick={() => {
-                this.setActiveIdx(index);
-              }} //через замикання методу setActiveIdx() буде доступний index
+              onClick={() => {this.setActiveIdx(index)}} //через замикання методу setActiveIdx() буде доступний index
             ></button>
           ))}
         </div>
